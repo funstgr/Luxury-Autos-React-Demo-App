@@ -1,0 +1,14 @@
+[
+    {"id": 7, "img": "/static/7.jpg", "make": "Audi", "model": "A6", "name": "2019 Audi A6", "stars": 4, "year": 2019}, 
+    {"id": 11, "img": "/static/11.jpg", "make": "Audi", "model": "A8", "name":"2019 Audi A8", "stars": 5, "year": 2019}, 
+    {"id": 1, "img": "/static/1.jpg", "make": "BMW", "model": "X2", "name": "2018 BMW X2", "stars": 5, "year": 2018}, 
+    {"id": 12, "img": "/static/1.jpg", "make": "BMW", "model": "X1", "name": "2018 BMW X1", "stars": 5, "year": 2018}, 
+    {"id": 3, "img": "/static/3.jpg", "make": "Ford", "model": "EcoSport", "name": "2018 Ford EcoSport", "stars": 3, "year": 2018}, 
+    {"id": 6, "img": "/static/6.jpg", "make": "Hyundai", "model": "Kona", "name": "2018 Hyundai Kona", "stars": 3, "year": 2018}, 
+    {"id": 4, "img": "/static/4.jpg", "make": "Infiniti", "model": "QX70", "name": "2018 Infiniti QX70", "stars": 4, "year": 2018}, 
+    {"id": 5, "img": "/static/5.jpg", "make": "Lexus", "model": "RX", "name": "2018 Lexus RX 350L", "stars": 4, "year": 2018}, 
+    {"id": 10, "img": "/static/10.jpg", "make": "Mercedes-Benz", "model": "GLC63 AMG", "name": "2018 Mercedes-Benz GLC63 AMG", "stars": 5, "year": 2018},
+    {"id": 2, "img": "/static/2.jpg", "make": "Subaru", "model": "Ascent", "name": "2019 Subaru Ascent", "stars": 4, "year": 2019}, 
+    {"id": 8, "img": "/static/8.jpg", "make": "Volkswagen", "model": "Arteon", "name": "2018 Volkswagen Arteon", "stars": 3, "year": 2018}, 
+    {"id": 9, "img": "/static/9.jpg", "make": "Volvo", "model": "XC40", "name": "2018 Volvo XC40", "stars": 4, "year": 2018}
+]

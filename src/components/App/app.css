@@ -1,0 +1,33 @@
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+.app-container {
+  padding: 0 1rem;
+}
+
+body{
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+
+a.cart_link{
+  color: hotpink;
+  text-decoration: none;
+}
+
+a.home_link{
+  color: hotpink;
+  text-decoration: none;
+  padding-left: 3vw;
+}
+
+a:hover {
+  color: red;
+}

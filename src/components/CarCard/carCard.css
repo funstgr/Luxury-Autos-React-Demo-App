@@ -1,0 +1,48 @@
+.car {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+/* Show only one car per row  */
+  .car {
+    width: 100%;
+  }
+
+.car.unavailable {
+  background: #ddd;
+  color: #888;
+}
+
+.car-img {
+  height: 70rem;
+  width: 100%;
+}
+
+.car-container {
+  padding: 1rem 1rem;
+}
+
+.car h4 {
+  font-weight: bold;
+}
+
+.buy-button {
+  border-radius: 7px;
+  border-width: 3px;
+  border-color: rgb(136, 148, 145);
+  background: rgb(92, 124, 106);
+  color: white;
+  height: 2vw;
+  width: 100%;
+}
+
+.hidden {
+  display:none;
+}
+.show{
+  display:block;
+}
+
+

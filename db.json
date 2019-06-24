@@ -1,0 +1,127 @@
+{
+  "cars":[
+  {
+    "id": 1,
+    "name": "2018 BMW X2",
+    "make": "BMW",
+    "model": "X2",
+    "year": 2018,
+    "img": "/static/1.jpg",
+    "stars": 5
+  },
+  {
+    "id": 2,
+    "name": "2019 Subaru Ascent",
+    "make": "Subaru",
+    "model": "Ascent",
+    "year": 2019,
+    "img": "/static/2.jpg",
+    "stars": 4
+  },
+  {
+    "id": 3,
+    "name": "2018 Ford EcoSport",
+    "make": "Ford",
+    "model": "EcoSport",
+    "year": 2018,
+    "img": "/static/3.jpg",
+    "stars": 3
+  },
+  {
+    "id": 4,
+    "name": "2018 Infiniti QX70",
+    "make": "Infiniti",
+    "model": "QX70",
+    "year": 2018,
+    "img": "/static/4.jpg",
+    "stars": 4
+  },
+  {
+    "id": 5,
+    "name": "2018 Lexus RX 350L",
+    "make": "Lexus",
+    "model": "RX",
+    "year": 2018,
+    "img": "/static/5.jpg",
+    "stars": 4
+  },
+  {
+    "id": 6,
+    "name": "2018 Hyundai Kona",
+    "make": "Hyundai",
+    "model": "Kona",
+    "year": 2018,
+    "img": "/static/6.jpg",
+    "stars": 3
+  },
+  {
+    "id": 7,
+    "name": "2019 Audi A6",
+    "make": "Audi",
+    "model": "A6",
+    "year": 2019,
+    "img": "/static/7.jpg",
+    "stars": 4
+  },
+  {
+    "id": 8,
+    "name": "2018 Volkswagen Arteon",
+    "make": "Volkswagen",
+    "model": "Arteon",
+    "year": 2018,
+    "img": "/static/8.jpg",
+    "stars": 3
+  },
+  {
+    "id": 9,
+    "name": "2018 Volvo XC40",
+    "make": "Volvo",
+    "model": "XC40",
+    "year": 2018,
+    "img": "/static/9.jpg",
+    "stars": 4
+  },
+  {
+    "id": 10,
+    "name": "2018 Mercedes-Benz GLC63 AMG",
+    "make": "Mercedes-Benz",
+    "model": "GLC63 AMG",
+    "year": 2018,
+    "img": "/static/10.jpg",
+    "stars": 5
+  },
+  {
+    "id": 11,
+    "name": "2019 Audi A8",
+    "make": "Audi",
+    "model": "A8",
+    "year": 2019,
+    "img": "/static/11.jpg",
+    "stars": 5
+  },
+  {
+    "id": 12,
+    "name": "2018 BMW X1",
+    "make": "BMW",
+    "model": "X1",
+    "year": 2018,
+    "img": "/static/1.jpg",
+    "stars": 5
+  }
+  ],
+  "availability":
+  {
+    "1": "In Dealership",
+    "2": "Out of Stock",
+    "3": "Unavailable",
+    "4": "In Dealership",
+    "5": "Out of Stock",
+    "6": "Unavailable",
+    "7": "In Dealership",
+    "8": "Out of Stock",
+    "9": "Unavailable",
+    "10": "In Dealership",
+    "11": "Out of Stock",
+    "12": "Unavailable"
+  }
+}
