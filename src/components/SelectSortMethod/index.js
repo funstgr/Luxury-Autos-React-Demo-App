@@ -10,7 +10,7 @@ class SelectSortMethod extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <select onChange={event => this.handleChange(event.target.value)}>
+      <select id='sortSelect' onChange={event => this.handleChange(event.target.value)}>
         {children}
       </select>
     );
