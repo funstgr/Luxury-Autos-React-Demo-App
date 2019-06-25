@@ -24,8 +24,6 @@ const carDataByMake = {
   doneLoadingCars: true,
 };
 
-console.log(carDataByMake);
-
 const carDataByName = {
   data: sortCarDataByName,
   doneLoadingCars: true,
@@ -53,9 +51,8 @@ it(description, () => {
   cy.window().then(getAvailabilityState).should('deep.equal', {});
 });
 
-description = '';
-description.concat('tests for default state data after data loads using pipe to ');
-description.concat('ensure cypress waits for the data');
+description = 'tests for default state data after data loads using pipe to '
+            + 'ensure cypress waits for the data';
 
 it(description, () => {
   cy.visit('/');
@@ -68,6 +65,18 @@ it(description, () => {
 
   const getCarsState = async win => win.store.getState().cars;
   cy.window().pipe(getCarsState).should('deep.equal', carDataByMake);
+});
+
+description = 'test availability fetchAvailability action returned state';
+
+it(description, () => {
+  cy.visit('/');
+
+  cy.window().its('store')
+    .invoke('dispatch', { type: types.REQUEST_AVAILABILITY });
+
+  const getAvailabilityState = async win => win.store.getState().availability;
+  cy.window().pipe(getAvailabilityState).should('deep.equal', availabilityData);
 });
 
 description = 'tests new sorted cars store when dropdown select value name is selected';
@@ -88,9 +97,8 @@ it(description, () => {
   cy.window().pipe(getCarsState).should('deep.equal', carDataByMake);
 });
 
-description = '';
-description.concat('has correct data in cart store when car is added then removed ');
-description.concat('from cart using addToCart and remove from cart actions');
+description = 'has correct data in cart store when car is added then removed '
+            + 'from cart using addToCart and remove from cart actions';
 it(description, () => {
   cy.visit('/');
 
@@ -110,7 +118,8 @@ it(description, () => {
   cy.window().pipe(getCartState3).should('deep.equal', { carsInCart: [] });
 });
 
-it('has correct data in cart store when two cars are added then one is removed from cart', () => {
+description = 'has correct data in cart store when two cars are added then one is removed from cart';
+it(description, () => {
   cy.visit('/');
 
   const getCartState = async win => win.store.getState().cart;
@@ -132,7 +141,10 @@ it('has correct data in cart store when two cars are added then one is removed f
   cy.window().pipe(getCartState3).should('deep.equal', { carsInCart: [cars[10]] });
 });
 
-it('has correct data in cart store when no cars are in the cart and one is attempted to be removed from cart', () => {
+description = 'has correct data in cart store when no cars are in the cart and one is attempted '
+            + 'to be removed from cart';
+
+it(description, () => {
   cy.visit('/');
 
   const getCartState = async win => win.store.getState().cart;
@@ -146,8 +158,9 @@ it('has correct data in cart store when no cars are in the cart and one is attem
   cy.window().pipe(getCartState2).should('deep.equal', { carsInCart: [] });
 });
 
-// eslint-disable-next-line max-len
-it('has correct data in cart store when a cars is added to the cart and the same car is attempted to be added again', () => {
+description = 'has correct data in cart store when a cars is added to the cart and the same car '
+            + 'is attempted to be added again';
+it(description, () => {
   cy.visit('/');
 
   const getCartState = async win => win.store.getState().cart;
