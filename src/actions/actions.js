@@ -15,7 +15,7 @@ export const fetchCars = () => (dispatch) => {
 };
 
 const getCars = () => async (dispatch) => {
-  await axios.get('http://localhost:5001/api/cars')
+  await axios.get('http://localhost:3001/api/cars')
     .then((res) => {
       dispatch({
         type: types.REQUEST_CARS,
@@ -32,7 +32,7 @@ export const fetchAvailability = () => (dispatch) => {
 };
 
 const getAvailability = () => async (dispatch) => {
-  await axios.get('http://localhost:5001/api/availability')
+  await axios.get('http://localhost:3001/api/availability')
     .then((res) => {
       dispatch({
         type: types.REQUEST_AVAILABILITY,
